@@ -1,0 +1,6 @@
+- man muss für jede möglichkeit des loggens einen minLogLevel festlegen können
+- man muss den logger um diverse andere logger erweitern können
+- wenn mehrere logger den selben minLogLevel haben, werden alle logger ausgelöst
+- so kann man z.b. eine message vom type CRIT per mail und per file ausgeben lassen
+- der logger für die optische ausgabe in der console hat die möglichkeit die level farbig zu visualisieren
+- 
